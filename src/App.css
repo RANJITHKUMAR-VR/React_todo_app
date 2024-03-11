@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins',sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Todowrapper{
+  margin-top: 100px;
+  padding: 20px;
+  background: #1A1A40;
+}
+.Todowrapper h2{
+  text-align: center;
+  color: #fff;
+}
+.Todoform input{
+  background:none;
+  width: 300px;
+  border:1px solid #8758ff;
+  outline: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.Todoform input::placeholder {
+  color: #ffffff4d;
+}
+.Todoform button{
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+.Todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background: #8758ff;
+  padding: 1rem;
+  border-radius:5px ;
+  margin-bottom: 1rem;
+}
+.edit-icon,.delete-icon{
+  cursor: pointer;
+}
+.edit-icon{
+  margin-right: 10px;
+}
+.completed{
+  text-decoration: line-through;
+}
